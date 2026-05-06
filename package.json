@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node --enable-source-maps serve.mjs"
+    "start": "start": "node --enable-source-maps ./dist/index.mjs db:migrate && node --enable-source-maps serve.mjs"
   },
   "engines": {
     "node": ">=18.0.0"
